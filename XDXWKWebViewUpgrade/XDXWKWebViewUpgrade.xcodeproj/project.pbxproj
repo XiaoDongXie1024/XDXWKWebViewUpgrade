@@ -8,11 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		23439C1B21917BBB0038673E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C1A21917BBB0038673E /* AppDelegate.m */; };
-		23439C1E21917BBB0038673E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C1D21917BBB0038673E /* ViewController.m */; };
+		23439C1E21917BBB0038673E /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 23439C1D21917BBB0038673E /* ViewController.mm */; };
 		23439C2121917BBB0038673E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23439C1F21917BBB0038673E /* Main.storyboard */; };
 		23439C2321917BC50038673E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23439C2221917BC50038673E /* Assets.xcassets */; };
 		23439C2621917BC50038673E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23439C2421917BC50038673E /* LaunchScreen.storyboard */; };
 		23439C2921917BC50038673E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C2821917BC50038673E /* main.m */; };
+		23439C5F21917CA80038673E /* TVUMJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C3321917CA80038673E /* TVUMJRefreshAutoFooter.m */; };
+		23439C6021917CA80038673E /* TVUMJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C3521917CA80038673E /* TVUMJRefreshBackFooter.m */; };
+		23439C6121917CA80038673E /* TVUMJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C3721917CA80038673E /* TVUMJRefreshComponent.m */; };
+		23439C6221917CA80038673E /* TVUMJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C3921917CA80038673E /* TVUMJRefreshFooter.m */; };
+		23439C6321917CA80038673E /* TVUMJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C3B21917CA80038673E /* TVUMJRefreshHeader.m */; };
+		23439C6421917CA80038673E /* TVUMJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C4021917CA80038673E /* TVUMJRefreshAutoGifFooter.m */; };
+		23439C6521917CA80038673E /* TVUMJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C4221917CA80038673E /* TVUMJRefreshAutoNormalFooter.m */; };
+		23439C6621917CA80038673E /* TVUMJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C4421917CA80038673E /* TVUMJRefreshAutoStateFooter.m */; };
+		23439C6721917CA80038673E /* TVUMJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C4721917CA80038673E /* TVUMJRefreshBackGifFooter.m */; };
+		23439C6821917CA80038673E /* TVUMJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C4921917CA80038673E /* TVUMJRefreshBackNormalFooter.m */; };
+		23439C6921917CA80038673E /* TVUMJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C4B21917CA80038673E /* TVUMJRefreshBackStateFooter.m */; };
+		23439C6A21917CA80038673E /* TVUMJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C4E21917CA80038673E /* TVUMJRefreshGifHeader.m */; };
+		23439C6B21917CA80038673E /* TVUMJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C5021917CA80038673E /* TVUMJRefreshNormalHeader.m */; };
+		23439C6C21917CA80038673E /* TVUMJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C5221917CA80038673E /* TVUMJRefreshStateHeader.m */; };
+		23439C6D21917CA80038673E /* NSBundle+TVUMJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C5421917CA80038673E /* NSBundle+TVUMJRefresh.m */; };
+		23439C6E21917CA80038673E /* TVUMJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 23439C5521917CA80038673E /* TVUMJRefresh.bundle */; };
+		23439C6F21917CA80038673E /* TVUMJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C5821917CA80038673E /* TVUMJRefreshConst.m */; };
+		23439C7021917CA80038673E /* UIScrollView+TVUMJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C5A21917CA80038673E /* UIScrollView+TVUMJExtension.m */; };
+		23439C7121917CA80038673E /* UIScrollView+TVUMJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C5C21917CA80038673E /* UIScrollView+TVUMJRefresh.m */; };
+		23439C7221917CA80038673E /* UIView+TVUMJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 23439C5E21917CA80038673E /* UIView+TVUMJExtension.m */; };
+		23439C7521917D4F0038673E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23439C7421917D4F0038673E /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +41,54 @@
 		23439C1921917BBB0038673E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23439C1A21917BBB0038673E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		23439C1C21917BBB0038673E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		23439C1D21917BBB0038673E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23439C1D21917BBB0038673E /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		23439C2021917BBB0038673E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23439C2221917BC50038673E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23439C2521917BC50038673E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23439C2721917BC50038673E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23439C2821917BC50038673E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23439C2F21917CA80038673E /* log4cplus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log4cplus.h; sourceTree = "<group>"; };
+		23439C3221917CA80038673E /* TVUMJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVUMJRefreshAutoFooter.h; sourceTree = "<group>"; };
+		23439C3321917CA80038673E /* TVUMJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVUMJRefreshAutoFooter.m; sourceTree = "<group>"; };
+		23439C3421917CA80038673E /* TVUMJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVUMJRefreshBackFooter.h; sourceTree = "<group>"; };
+		23439C3521917CA80038673E /* TVUMJRefreshBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVUMJRefreshBackFooter.m; sourceTree = "<group>"; };
+		23439C3621917CA80038673E /* TVUMJRefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVUMJRefreshComponent.h; sourceTree = "<group>"; };
+		23439C3721917CA80038673E /* TVUMJRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVUMJRefreshComponent.m; sourceTree = "<group>"; };
+		23439C3821917CA80038673E /* TVUMJRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVUMJRefreshFooter.h; sourceTree = "<group>"; };
+		23439C3921917CA80038673E /* TVUMJRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVUMJRefreshFooter.m; sourceTree = "<group>"; };
+		23439C3A21917CA80038673E /* TVUMJRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVUMJRefreshHeader.h; sourceTree = "<group>"; };
+		23439C3B21917CA80038673E /* TVUMJRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVUMJRefreshHeader.m; sourceTree = "<group>"; };
+		23439C3F21917CA80038673E /* TVUMJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVUMJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		23439C4021917CA80038673E /* TVUMJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVUMJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		23439C4121917CA80038673E /* TVUMJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVUMJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		23439C4221917CA80038673E /* TVUMJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVUMJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		23439C4321917CA80038673E /* TVUMJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVUMJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		23439C4421917CA80038673E /* TVUMJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVUMJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		23439C4621917CA80038673E /* TVUMJRefreshBackGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVUMJRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		23439C4721917CA80038673E /* TVUMJRefreshBackGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVUMJRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		23439C4821917CA80038673E /* TVUMJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVUMJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		23439C4921917CA80038673E /* TVUMJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVUMJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		23439C4A21917CA80038673E /* TVUMJRefreshBackStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVUMJRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		23439C4B21917CA80038673E /* TVUMJRefreshBackStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVUMJRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		23439C4D21917CA80038673E /* TVUMJRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVUMJRefreshGifHeader.h; sourceTree = "<group>"; };
+		23439C4E21917CA80038673E /* TVUMJRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVUMJRefreshGifHeader.m; sourceTree = "<group>"; };
+		23439C4F21917CA80038673E /* TVUMJRefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVUMJRefreshNormalHeader.h; sourceTree = "<group>"; };
+		23439C5021917CA80038673E /* TVUMJRefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVUMJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		23439C5121917CA80038673E /* TVUMJRefreshStateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVUMJRefreshStateHeader.h; sourceTree = "<group>"; };
+		23439C5221917CA80038673E /* TVUMJRefreshStateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVUMJRefreshStateHeader.m; sourceTree = "<group>"; };
+		23439C5321917CA80038673E /* NSBundle+TVUMJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TVUMJRefresh.h"; sourceTree = "<group>"; };
+		23439C5421917CA80038673E /* NSBundle+TVUMJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TVUMJRefresh.m"; sourceTree = "<group>"; };
+		23439C5521917CA80038673E /* TVUMJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TVUMJRefresh.bundle; sourceTree = "<group>"; };
+		23439C5621917CA80038673E /* TVUMJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVUMJRefresh.h; sourceTree = "<group>"; };
+		23439C5721917CA80038673E /* TVUMJRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVUMJRefreshConst.h; sourceTree = "<group>"; };
+		23439C5821917CA80038673E /* TVUMJRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVUMJRefreshConst.m; sourceTree = "<group>"; };
+		23439C5921917CA80038673E /* UIScrollView+TVUMJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TVUMJExtension.h"; sourceTree = "<group>"; };
+		23439C5A21917CA80038673E /* UIScrollView+TVUMJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TVUMJExtension.m"; sourceTree = "<group>"; };
+		23439C5B21917CA80038673E /* UIScrollView+TVUMJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TVUMJRefresh.h"; sourceTree = "<group>"; };
+		23439C5C21917CA80038673E /* UIScrollView+TVUMJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TVUMJRefresh.m"; sourceTree = "<group>"; };
+		23439C5D21917CA80038673E /* UIView+TVUMJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TVUMJExtension.h"; sourceTree = "<group>"; };
+		23439C5E21917CA80038673E /* UIView+TVUMJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TVUMJExtension.m"; sourceTree = "<group>"; };
+		23439C7421917D4F0038673E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23439C7521917D4F0038673E /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +108,7 @@
 			children = (
 				23439C1821917BBB0038673E /* XDXWKWebViewUpgrade */,
 				23439C1721917BBB0038673E /* Products */,
+				23439C7321917D4F0038673E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +123,12 @@
 		23439C1821917BBB0038673E /* XDXWKWebViewUpgrade */ = {
 			isa = PBXGroup;
 			children = (
+				23439C2F21917CA80038673E /* log4cplus.h */,
+				23439C3021917CA80038673E /* TVUMJRefresh */,
 				23439C1921917BBB0038673E /* AppDelegate.h */,
 				23439C1A21917BBB0038673E /* AppDelegate.m */,
 				23439C1C21917BBB0038673E /* ViewController.h */,
-				23439C1D21917BBB0038673E /* ViewController.m */,
+				23439C1D21917BBB0038673E /* ViewController.mm */,
 				23439C1F21917BBB0038673E /* Main.storyboard */,
 				23439C2221917BC50038673E /* Assets.xcassets */,
 				23439C2421917BC50038673E /* LaunchScreen.storyboard */,
@@ -69,6 +136,109 @@
 				23439C2821917BC50038673E /* main.m */,
 			);
 			path = XDXWKWebViewUpgrade;
+			sourceTree = "<group>";
+		};
+		23439C3021917CA80038673E /* TVUMJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				23439C3121917CA80038673E /* Base */,
+				23439C3C21917CA80038673E /* Custom */,
+				23439C5321917CA80038673E /* NSBundle+TVUMJRefresh.h */,
+				23439C5421917CA80038673E /* NSBundle+TVUMJRefresh.m */,
+				23439C5521917CA80038673E /* TVUMJRefresh.bundle */,
+				23439C5621917CA80038673E /* TVUMJRefresh.h */,
+				23439C5721917CA80038673E /* TVUMJRefreshConst.h */,
+				23439C5821917CA80038673E /* TVUMJRefreshConst.m */,
+				23439C5921917CA80038673E /* UIScrollView+TVUMJExtension.h */,
+				23439C5A21917CA80038673E /* UIScrollView+TVUMJExtension.m */,
+				23439C5B21917CA80038673E /* UIScrollView+TVUMJRefresh.h */,
+				23439C5C21917CA80038673E /* UIScrollView+TVUMJRefresh.m */,
+				23439C5D21917CA80038673E /* UIView+TVUMJExtension.h */,
+				23439C5E21917CA80038673E /* UIView+TVUMJExtension.m */,
+			);
+			path = TVUMJRefresh;
+			sourceTree = "<group>";
+		};
+		23439C3121917CA80038673E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				23439C3221917CA80038673E /* TVUMJRefreshAutoFooter.h */,
+				23439C3321917CA80038673E /* TVUMJRefreshAutoFooter.m */,
+				23439C3421917CA80038673E /* TVUMJRefreshBackFooter.h */,
+				23439C3521917CA80038673E /* TVUMJRefreshBackFooter.m */,
+				23439C3621917CA80038673E /* TVUMJRefreshComponent.h */,
+				23439C3721917CA80038673E /* TVUMJRefreshComponent.m */,
+				23439C3821917CA80038673E /* TVUMJRefreshFooter.h */,
+				23439C3921917CA80038673E /* TVUMJRefreshFooter.m */,
+				23439C3A21917CA80038673E /* TVUMJRefreshHeader.h */,
+				23439C3B21917CA80038673E /* TVUMJRefreshHeader.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		23439C3C21917CA80038673E /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				23439C3D21917CA80038673E /* Footer */,
+				23439C4C21917CA80038673E /* Header */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		23439C3D21917CA80038673E /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				23439C3E21917CA80038673E /* Auto */,
+				23439C4521917CA80038673E /* Back */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		23439C3E21917CA80038673E /* Auto */ = {
+			isa = PBXGroup;
+			children = (
+				23439C3F21917CA80038673E /* TVUMJRefreshAutoGifFooter.h */,
+				23439C4021917CA80038673E /* TVUMJRefreshAutoGifFooter.m */,
+				23439C4121917CA80038673E /* TVUMJRefreshAutoNormalFooter.h */,
+				23439C4221917CA80038673E /* TVUMJRefreshAutoNormalFooter.m */,
+				23439C4321917CA80038673E /* TVUMJRefreshAutoStateFooter.h */,
+				23439C4421917CA80038673E /* TVUMJRefreshAutoStateFooter.m */,
+			);
+			path = Auto;
+			sourceTree = "<group>";
+		};
+		23439C4521917CA80038673E /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				23439C4621917CA80038673E /* TVUMJRefreshBackGifFooter.h */,
+				23439C4721917CA80038673E /* TVUMJRefreshBackGifFooter.m */,
+				23439C4821917CA80038673E /* TVUMJRefreshBackNormalFooter.h */,
+				23439C4921917CA80038673E /* TVUMJRefreshBackNormalFooter.m */,
+				23439C4A21917CA80038673E /* TVUMJRefreshBackStateFooter.h */,
+				23439C4B21917CA80038673E /* TVUMJRefreshBackStateFooter.m */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		23439C4C21917CA80038673E /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				23439C4D21917CA80038673E /* TVUMJRefreshGifHeader.h */,
+				23439C4E21917CA80038673E /* TVUMJRefreshGifHeader.m */,
+				23439C4F21917CA80038673E /* TVUMJRefreshNormalHeader.h */,
+				23439C5021917CA80038673E /* TVUMJRefreshNormalHeader.m */,
+				23439C5121917CA80038673E /* TVUMJRefreshStateHeader.h */,
+				23439C5221917CA80038673E /* TVUMJRefreshStateHeader.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		23439C7321917D4F0038673E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23439C7421917D4F0038673E /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23439C6E21917CA80038673E /* TVUMJRefresh.bundle in Resources */,
 				23439C2621917BC50038673E /* LaunchScreen.storyboard in Resources */,
 				23439C2321917BC50038673E /* Assets.xcassets in Resources */,
 				23439C2121917BBB0038673E /* Main.storyboard in Resources */,
@@ -141,9 +312,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23439C1E21917BBB0038673E /* ViewController.m in Sources */,
+				23439C6921917CA80038673E /* TVUMJRefreshBackStateFooter.m in Sources */,
+				23439C5F21917CA80038673E /* TVUMJRefreshAutoFooter.m in Sources */,
+				23439C1E21917BBB0038673E /* ViewController.mm in Sources */,
+				23439C6121917CA80038673E /* TVUMJRefreshComponent.m in Sources */,
+				23439C7121917CA80038673E /* UIScrollView+TVUMJRefresh.m in Sources */,
+				23439C6621917CA80038673E /* TVUMJRefreshAutoStateFooter.m in Sources */,
 				23439C2921917BC50038673E /* main.m in Sources */,
+				23439C7221917CA80038673E /* UIView+TVUMJExtension.m in Sources */,
+				23439C7021917CA80038673E /* UIScrollView+TVUMJExtension.m in Sources */,
+				23439C6021917CA80038673E /* TVUMJRefreshBackFooter.m in Sources */,
+				23439C6321917CA80038673E /* TVUMJRefreshHeader.m in Sources */,
+				23439C6221917CA80038673E /* TVUMJRefreshFooter.m in Sources */,
+				23439C6421917CA80038673E /* TVUMJRefreshAutoGifFooter.m in Sources */,
+				23439C6721917CA80038673E /* TVUMJRefreshBackGifFooter.m in Sources */,
 				23439C1B21917BBB0038673E /* AppDelegate.m in Sources */,
+				23439C6B21917CA80038673E /* TVUMJRefreshNormalHeader.m in Sources */,
+				23439C6821917CA80038673E /* TVUMJRefreshBackNormalFooter.m in Sources */,
+				23439C6A21917CA80038673E /* TVUMJRefreshGifHeader.m in Sources */,
+				23439C6C21917CA80038673E /* TVUMJRefreshStateHeader.m in Sources */,
+				23439C6521917CA80038673E /* TVUMJRefreshAutoNormalFooter.m in Sources */,
+				23439C6D21917CA80038673E /* NSBundle+TVUMJRefresh.m in Sources */,
+				23439C6F21917CA80038673E /* TVUMJRefreshConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +476,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YDEVQQ22JR;
 				INFOPLIST_FILE = XDXWKWebViewUpgrade/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +493,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YDEVQQ22JR;
 				INFOPLIST_FILE = XDXWKWebViewUpgrade/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
